@@ -1,0 +1,45 @@
+.two {
+  width : 100px;
+  height : 100px;
+  background-color: rgb(202, 78, 36);
+  transition : width 2s, height 4s;
+}
+
+div:hover {
+  
+  width : 300px;
+  
+}
+.one{
+  background-color: rgb(145, 46, 46);
+  height : 100px;
+  width : 100px;
+}
+.three{
+  background-color: brown;
+  height :100px;
+  width : 100px;
+}
+.one:hover{
+  height :150px;
+  background-color: rgb(224, 108, 108);
+  transition-timing-function: linear;
+}
+.three:hover{
+  background-color: pink;
+  transition-timing-function: ease-in;
+  transition-delay:3s;
+}
+.four{
+  background-color: rgb(236, 76, 76);
+  height :100px;
+  width : 100px;
+  
+}
+.four:hover{
+  height :300px;
+  width : 300px;
+  background-color: crimson;
+  transition: width 2s, height 4s,transform 2s;
+  transition-duration: 15s;
+}
